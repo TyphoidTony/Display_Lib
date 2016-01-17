@@ -10,8 +10,8 @@ void hex_display(int hex, int digit);
 int hex_value(char in);
 
 /* Simple convenience function to print out a leeter to each digit of the
-display it assumes you're starting at zero on the displays*/
-void _print(char *str);
+   display it assumes you're starting at zero on the displays*/
+void _print(char* str);
 
 /* prints out 'Err1' onto 4 digit display */
 void err_msg();

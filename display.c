@@ -87,8 +87,9 @@ int hex_value(char in){
   case '9':
     return 0x6F;
 
-  default:
-    err_msg();
+
+
+
   }
     
 }
