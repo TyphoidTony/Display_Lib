@@ -6,11 +6,12 @@
 void hex_display(int hex, int digit);
 
 /* Simple list of most if not all of the possible character and
-   number combinations for a 7segment display*/
+   number combinations for a 7segment display */
 int hex_value(char in);
 
 /* Simple convenience function to print out a leeter to each digit of the
-   display it assumes you're starting at zero on the displays*/
+   display it assumes you're starting at zero on the displays
+@param str including numbers need to be passed as strings as well*/
 void _print(char* str);
 
 /* prints out 'Err1' onto 4 digit display */
