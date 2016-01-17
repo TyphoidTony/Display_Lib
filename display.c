@@ -20,6 +20,7 @@ int hex_value(char in){
   case 'A':
     return 0x77;
 
+  case 'B':  
   case 'b':
     return 0x7C;
 
@@ -27,12 +28,14 @@ int hex_value(char in){
   case 'C':
     return 0x39;
 
+  case 'D':
   case 'd':
     return 0x5E;
 
   case 'e':
   case 'E':
     return 0x79;
+
   case 'f':
   case 'F':
     return 0x71;
@@ -45,11 +48,15 @@ int hex_value(char in){
   case 'H':
     return 0x76;
 
+  case 'N':
   case 'n':
     return 0x54;
+
+  case 'O':
   case 'o':
     return 0x5C;
 
+  case 'R':
   case 'r':
     return 0x50;
 
@@ -87,9 +94,9 @@ int hex_value(char in){
   case '9':
     return 0x6F;
 
-
-
-
+  default:
+    return 0;
+    
   }
     
 }
